@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-image: url("mandalas2.png");
+    color: rgb(38, 0, 109);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.section {
+    background: var(--color-light);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2d296d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer{
+    text-align: center; padding: 40px 0; color: #7f8c8d; border-top: 2px solid #ecf0f1; margin-top: 60px; 
+}
