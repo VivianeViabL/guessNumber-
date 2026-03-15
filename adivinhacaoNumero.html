@@ -8,31 +8,32 @@
     <script src="adivinhacaoNumero.js"></script>
 </head>
 <body>
-    <header> <!-- Cabeçalho -->
-        <h1>Chuta que é Número</h1> 
-    </header>
-    <main>
-        <section> <!-- Seção sobre -->
-            <p>
-            <h3>Este é um joguinho simples de adivinhação de números feito em HTML5, CSS e JavaScript, onde o computador escolhe um número secreto entre 1 e 100, e sua missão é descobrir qual é! <br> <!-- "br" é a quebra de linha -->
-                A cada tentativa, o jogo dá uma dica dizendo se o número chutado é maior ou menor que o número secreto. <br>
-                Mas cuidado: você tem um número limitado de tentativas para acertar. <br> Será que você consegue descobrir o número antes que suas chances acabem? Vamos tentar!</h3>
-            </p>
-        </section>
-        <section>
-            <p>
-            <label for="palpite">Insira seu palpite (de 1 a 100): </label>
-            <input type="number" id="palpite" >
-            </p>
+    <div class="container">
+        <main>
+        <header> <!-- Cabeçalho -->
+            <h1>Chuta que é Número</h1> 
+        </header>
+            <section> <!-- Seção sobre -->
+                <p>
+                <h3>Este é um joguinho simples de adivinhação de números feito em HTML5, CSS e JavaScript, onde o computador escolhe um número secreto entre 1 e 100, e sua missão é descobrir qual é! 
+                    <br>A cada tentativa, o jogo dá uma dica dizendo se o número chutado é maior ou menor que o número secreto.
+                    Mas cuidado: você tem um número limitado de tentativas para acertar. <br> Será que você consegue descobrir o número antes que suas chances acabem? Vamos tentar!</h3> <!-- "br" é a quebra de linha -->
+                </p>
+            </section>
+            <section>
+                <p>
+                <label for="palpite">Insira seu palpite (de 1 a 100): </label>
+                <input type="number" id="palpite" >
+                </p>
 
-            <button type="button" onclick="verificaPalpite()">Chutar</button>
+                <button type="button" onclick="verificaPalpite()">Chutar</button>
 
-            <p id="tentativas"></p>
-            <p id="resultado"></p>
+                <p id="tentativas"></p>
+                <p id="resultado"></p>
 
-        </section>
-    </main>
-
+            </section>
+        </main>
+    </div> 
     <footer> <!-- Rodapé -->
         <p>&copy; 2026</p>
     </footer>
