@@ -2,8 +2,26 @@ body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     background-image: url("mandalas2.png");
     color: rgb(38, 0, 109);
-    line-height: 1.6;
-    padding: 20px;
+    line-height: 1.4;
+    padding: 50px;
+    height:100vh;
+    display:flex;
+    margin:0;
+    min-height:100vh;
+    background-position:center;
+    flex-direction:column;
+    align-items:center;
+}
+
+.container{
+    width: 600px;
+    padding: 40px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
 }
 
 .section {
@@ -15,14 +33,22 @@ body {
 }
 
 button {
-  width: 100%;
+  width: 30%;
   padding: 10px;
   background-color: #2d296d;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
+}
+
+input, select, textarea {
+  width: 20%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 footer{
